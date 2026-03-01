@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ruokablogi</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#home">Ruokablogi</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto gap-lg-3">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Etusivu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#recipes">Reseptit</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#share">Jaa resepti</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Yhteystiedot</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container content mt-5 pt-5">
+
+  <section id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Tervetuloa ruokablogiin!</h1>
+      <p>
+        Sivustolta löydät reseptejä arkiruokiin 
+        sekä suolaisiin että makeisiin leivonnaisiin. Voit myös jakaa omia 
+        reseptejäsi reseptilomakkeen kautta muille käyttäjille. Iloista ruoanlaittoa! 
+      </p>
+      <a href="#recipes" class="btn btn-light btn-lg mt-3">Katso reseptit</a>
+      </div>
+  </section>
+
+  <!--alaotsikot resepteistä-->
+  <!--arkiruoka-->
+  <section id="arkiruoka" class=" py-5">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="mb-0">Arkiruoka</h2>
+        <a href="#recipes" class="btn btn-outline-secondary btn-sm">Takasin kategorioihin</a>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-12 col-md-6">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="makaronilaatikko.jpg" class="card-img-top" alt="Makaronilaatikko">
+            
+            <div class="card-body">
+              <h5 class="card-title">Makaronilaatikko</h5>
+
+            <button class="btn btn-primary btn-sm" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#resepti1">
+                Näytä resepti
+            </button>
+
+            <div class="collapse mt-3" id="resepti1">
+              <hr>
+              <h6>Ainekset:</h6>
+              <ul>
+                <li>400 g makaronia</li>
+                <li>400 g jauhelihaa</li>
+                <li>1 sipuli</li>
+                <li>1 tl suolaa</li>
+                <li>1 tl mustapippuria</li>
+                <li> 2 tl basilikaa</li>
+                <li>2 tl timjamia</li>
+                <li>2-3 kananmunaa</li>
+                <li>7 dl maitoa</li>
+                <li>2 dl juustoraastetta</li>
+              </ul>
+
+              <h6>Ohje:</h6>
+              <p>
+                Keitä makaronit. Hienonna sipuli ja paista jauheliha pannulla.
+                Lisää sipulit jauhelihan joukkoon ja mausta seos suolalla, mustapippurilla, 
+                basilikalla ja timjamilla. Kaada jauhelija ja makaronit isoon voideltuun vuokaan.
+                Tee munamaito sekoittamalla yhteen kananmunat, maito ja mausta halutessasi suolalla.
+                Kypsennä 175 asteisessa uunissa noin 45 minuuttia. Ripottele juustoraastetta pinnalle 
+                kypsymisen loppuvaiheessa. 
+                <br>Lähde: K-ruoka
+              </p>
+            </div>
+        </div>
+     </div>
+    </div>
+
+    <div class="col-12 col-md-6">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="bataatti.jpg" class="card-img-top" alt="bataattikeitto">
+            
+            <div class="card-body">
+              <h5 class="card-title">Bataattikeitto</h5>
+
+            <button class="btn btn-primary btn-sm" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#reseptib">
+                Näytä resepti
+            </button>
+
+            <div class="collapse mt-3" id="reseptib">
+              <hr>
+              <h6>Ainekset:</h6>
+              <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+
+              <h6>Ohje:</h6>
+              <p>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." 
+              </p>
+            </div>
+        </div>
+     </div>
+    </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!--makeat alasivu-->
+  <!--korvapuustit-->
+  <section id="makeat" class="py-5">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="mb-0">Makeat leivonnaiset</h2>
+        <a href="#recipes" class="btn btn-outline-secondary btn-sm">Takasin kategorioihin</a>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-12 col-md-6">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="korvapuusti.jpg" class="card-img-top" alt="korvapuusti">
+            
+            <div class="card-body">
+              <h5 class="card-title">Korvapuustit</h5>
+
+            <button class="btn btn-primary btn-sm" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#reseptik">
+                Näytä resepti
+            </button>
+
+            <div class="collapse mt-3" id="reseptik">
+              <hr>
+              <h6>Ainekset:</h6>
+              <ul>
+                <li>5 dl maitoa</li>
+                <li>50 g hiivaa</li>
+                <li>1 kananmuna</li>
+                <li>1 dl sokeria</li>
+                <li>1 rkl kardemummaa</li>
+                <li>1,5 tl suolaa</li>
+                <li>n. 14 dl vehnäjauhoja</li>
+                <li>150 g voita tai margariinia</li>
+                <li>Täyte</li>
+                <li>100 g voita tai margariinia</li>
+                <li>1 dl sokeria</li>
+                <li>2 rkl kanelia</li>
+                <li>voiteluun</li>
+                <li>kananmunaa</li>
+                <li>pinnalle raesokeria</li>
+              </ul>
+              <br>
+              <h6>Ohje:</h6>
+              <p>
+                Liota hiiva kädenlämpöiseen maitoon. Sekoita joukkoon muna,
+                sokeri, kardemumma ja suola. Alusta jauhot taikinaan vähitellen.
+                Lisää alustamisen loppuvaiheessa pehmeä rasva taikinaan. Alusta taikinaa,
+                kunnes se on tasaista ja irtoaa kulhon reunoista. Anna taikinan kohota leivinliinan
+                alla n. 20 minuuttia. Vaivaa taikinaa leivinpöydällä ja jaa se kahteen osaan. Kauli taikinapala noin 30 x 60 cm:n suuruiseksi levyksi. Levitä päälle puolet pehmeästä rasvasta ja ripottele päälle sokeria ja kanelia. 
+                Kääri levy rullaksi, jätä saumakohta alle. Leikkaa rulla noin 16 palaan hieman vinoin viilloin. Nosta palat pystyyn kapeampi puoli ylöspäin. Paina sormilla palojen kapea kärki alas pöytään, niin, että leikkauspinnat nousevat ylös. 
+                Leivo toinen taikinapala samoin. Kohota hyvin liinalla peitettyinä. 
+                Voitele korvapuustit munalla ja koristele raesokerilla. Paista 225 asteessa 8-10 minuuttia. 
+              <br>Lähde: K-ruoka
+              </p>
+            </div>
+        </div>
+     </div>
+    </div>
+    <!--mokkapalat-->
+    <div class="col-12 col-md-6">
+      <div class="card h-100 shadow-sm border-0">
+        <img src="mokkapala.jpg" class="card-img-top" alt="Mokkapalat">
+          <div class="card-body">
+          <h5 class="card-title">Mokkapalat</h5>
+          <button class="btn btn-primary btn-sm"
+                data-bs-toggle="collapse"
+                data-bs-target="#reseptim">
+                Näytä resepti
+          </button>
+
+          <div class="collapse mt-3" id="reseptim">
+            <hr>
+            <h6>Ainekset:</h6>
+            <ul>
+              <li>5,5 dl vehnäjauhoja</li>
+              <li>0,75 dl kaakaojauhetta</li>
+              <li>275 g voita</li>
+              <li>2 dl sokeria</li>
+              <li>4 munaa</li>
+              <li>2 dl maitoa</li>
+              <li>Kuorrute</li>
+              <li>150 g voita</li>
+              <li>8 dl tomusokeria</li>
+              <li>1 dl kahvia</li>
+              <li>4 rkl kaakaojauhetta</li>
+              <li>pinnalle strösseliä tai nonparelleja</li>
+            </ul>
+            <br>
+
+            <h6>Ohje:</h6>
+            <p>
+              POHJA. Yhdistä vehnäjauhot, kaakaojauhe ja leivinjauhe keskenään. 
+              Vatkaa voi ja sokeri vaahdoksi. Sekoita voivaahtoon vuorotellen munia, jauhoseosta ja maitoa. 
+              Levitä taikina pellille leivinpaperin päälle noin 1 cm:n paksuiseksi levyksi. 
+              Paista 200 asteessa uunin keskitasolla noin 15 minuuttia. 
+              Anna jäähtyä ennen kuorruttamista. 
+              <br> KUORRUTUS. Mittaa kaikki kuorruteainekset kattilaan ja kuumenna liedellä sekoitellen, 
+              kunnes seos on tasaista. Älä anna kiehahtaa. 
+              Jäähdytä kuorrutetta kylmässä vesihauteessa välillä sekoitellen, kunnes se paksuuntuu. 
+              Kaada kuorrute sitten pohjan päälle ja tasoita lastalla. Ripottele nopeasti päälle nonparelleja tai strösseliä.
+              Anna jähmettyä jääkaapissa ja leikkaa paloiksi.
+              <br>Lähde: Kinuskikissa
+            </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+  <!--suolaset alaotsikko-->
+  <section id="suolaiset" class="py-5">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="mb-0">Suolaiset leivonnaiset</h2>
+        <a href="#recipes" class="btn btn-outline-secondary btn-sm">Takasin kategorioihin</a>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-12 col-md-6">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="pizza.jpg" class="card-img-top" alt="pizza">
+            
+            <div class="card-body">
+              <h5 class="card-title">Pizza</h5>
+
+            <button class="btn btn-primary btn-sm" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#resepti3">
+                Näytä resepti
+            </button>
+
+            <div class="collapse mt-3" id="resepti3">
+              <hr>
+              <h6>Ainekset:</h6>
+              <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+
+              <h6>Ohje:</h6>
+              <p>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              </p>
+            </div>
+        </div>
+     </div>
+    </div>
+
+    <!--toinen kortti suolasiin-->
+    <div class="col-12 col-md-6">
+      <div class="card h-100 shadow-sm border-0">
+        <img src="hapajuurileipä.jpg" class="card-img-top" alt="Hapanjuurileipä">
+        
+        <div class="card-body">
+            <h5 class="card-title">Hapanjuurileipä</h5>
+
+            <button class="btn btn-primary btn-sm" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#resepti4">
+                Näytä resepti
+            </button>
+
+            <div class="collapse mt-3" id="resepti4">
+              <hr>
+              <h6>Ainekset:</h6>
+              <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+
+              <h6>Ohje:</h6>
+              <p>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              </p>
+            </div>
+        </div>
+     </div>
+    </div>
+  </div>
+</div>
+</section>
+
+  <!--reseptit-->
+  <section id="recipes" class="container py-5">
+  <h2 class="text-center mb-5">Kategoriat</h2>
+
+  <div class="row g-4">
+
+    <!-- Arkiruoka -->
+    <div class="col-md-6 col-lg-4">
+      <a href="#arkiruoka" class="text-decoration-none">
+        <div class="card recipe-card h-100 shadow-sm border-0">
+          <img src="mausteet.jpg" class="card-img-top" alt="Arkiruoka">
+          <div class="card-body text-center">
+            <h5 class="card-title">Arkiruoka</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <!-- Makeat -->
+    <div class="col-md-6 col-lg-4">
+      <a href="#makeat" class="text-decoration-none">
+        <div class="card recipe-card h-100 shadow-sm border-0">
+          <img src="mokkapala.jpg" class="card-img-top" alt="Makeat leivonnaiset">
+          <div class="card-body text-center">
+            <h5 class="card-title">Makeat leivonnaiset</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <!-- Suolaiset -->
+    <div class="col-md-6 col-lg-4">
+      <a href="#suolaiset" class="text-decoration-none">
+        <div class="card recipe-card h-100 shadow-sm border-0">
+          <img src="pizza.jpg" class="card-img-top" alt="Suolaiset leivonnaiset">
+          <div class="card-body text-center">
+            <h5 class="card-title">Suolaiset leivonnaiset</h5>
+          </div>
+        </div>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+  <!--jaa resepti-->
+  <section id="share" class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <h2 class="mb-4 text-center">Jaa oma reseptisi!</h2>
+        <form id="recipeFormi" class="card shadow p-4">
+
+          <div class="mb-4">
+            <label for="recipeName" class="form-label fw-semibold">Reseptin nimi: </label>
+            <input type="text" class="form-control" id="recipeName" placeholder="Kirjoita reseptin nimi tähän." required>
+          </div>
+
+          <div class="mb-4">
+            <label for="ainesosat" class="form-label fw-semibold"> Ainesosat:</label>
+            <textarea class="form-control" id="ainesosat" rows="4" placeholder="Listaa tarvittavat ainesosat tähän." required></textarea>
+          </div>
+
+          <div class="mb4">
+            <label for="ohjeet" class="form-label fw-semibold">Valmistusohjeet:</label>
+            <textarea class="form-control" id="ohjeet" rows="5" placeholder="Kerro valmitusohjeet tähän." required></textarea>
+          </div>
+
+          <hr class="my-4">
+          <h5 class="mb-3">Lähettäjän tiedot:</h5>
+
+          <div class="mb-4">
+            <label for="senderName" class="form-label">Nimi:</label>
+            <input type="text" class="form-control" id="senderName" required>
+          </div>
+
+          <div class="mb-4">
+            <label for="email" class="form-label">Sähköposti:</label>
+            <input type="email" class="form-control" id="email" placeholder="esim. meikä.meikänpoika@gmail.com" required>
+          </div>
+
+          <button type="submit" class="btn btn-dark w-100">Lähetä</button>
+          <div id="onnistu" class="alert alert-success mt-4 d-none">Kiitos reseptistä!</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!--ota yhteyttä-->
+  <section id="contact" class="container py-5">
+    <div class="row align-items-stretch g-4">
+      <div class="col-lg-6 d-flex">
+        <div class="card contact-card shadow border-0 w-100">
+          <div class="card-body p-5">
+            <h2 class="card-title mb-4">Yhteystiedot</h2>
+            <div class="mb-4">
+              <h6 class="">Puhelinnumero</h6>
+              <p class="fs-5 mb-0">
+                <a href="tel:eoeofjf" class="text-decoration-none">040 000 000</a>
+              </p>
+          </div>
+
+          <hr>
+
+          <div class="mb-4">
+            <h6 class="">Sähköposti</h6>
+            <p class="fs-5 mb-0">
+              <a href="" class="text-decoration-none">
+                maija.meikäläinen@gmail.com
+              </a>
+            </p>
+          </div>
+
+          <hr>
+
+          <div>
+            <h6 class="">Osoite</h6>
+            <p class="fs-5 mb-0">
+              Esimerkkikatu 67<br>
+              00100 Kaupunki
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-6 d-flex">
+      <div class="image-wrapper shadow w-100">
+        <img src="leivonta.jpg" alt="mausteita">
+      </div>
+    </div>
+  </div>
+  </section>
+
+</div>
+
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>
